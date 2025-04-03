@@ -17,17 +17,17 @@ A web application to track expenses and budgets.
 
 ## Install dependencies:
 
-cd personal-finance-manager
-npm install
+   cd personal-finance-manager
+   npm install
 
 ## Set environment variables in .env:
 
-MONGO_URI=mongodb+srv://your-db-uri
-JWT_SECRET=your-secret-key
-PORT=5000
+   MONGO_URI=mongodb+srv://your-db-uri
+   JWT_SECRET=your-secret-key
+   PORT=5000
 
 ## Start the server:
-npm start
+   npm start
 
 
 
@@ -39,14 +39,14 @@ npm start
 
 Live Backend URL:
 
-https://your-app.onrender.com
+   https://personal-finance-manager-3as2.onrender.com
 
 🔹 Authentication APIs
 ✅ 1️⃣ Register User
 
 📌 Endpoint:
 
-POST /api/auth/register
+   POST /api/auth/register
 
 📌 Request Body (JSON):
 
